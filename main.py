@@ -1,9 +1,10 @@
 import lab9
+import lab10
 
 
 def print_hi(name):
 
-    lab9.main()
+    lab10.main()
 
 
 if __name__ == '__main__':

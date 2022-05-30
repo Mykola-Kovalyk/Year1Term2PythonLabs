@@ -6,12 +6,12 @@ class RsTrigger:
         self._state = False
         pass
 
-    def get_state(self, s: bool, r: bool):
+    def get_state(self, setter: bool, reset: bool):
 
-        if r and s:
+        if reset and setter:
             raise "Invalid input"
 
-        if r or s:
-            self._state = s
+        if reset or setter:
+            self._state = setter
 
         return self._state
