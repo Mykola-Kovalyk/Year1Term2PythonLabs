@@ -6,6 +6,7 @@ from .d_trigger import DTrigger
 from .multiplexer import Multiplexer
 from .shifting_register import ShiftingRegister
 
+
 def main():
 
     binary = BinaryCounter()
@@ -15,9 +16,9 @@ def main():
     rs = RsTrigger()
     d = DTrigger()
 
-    shift_reg =  ShiftingRegister()
+    shift_reg = ShiftingRegister()
 
-    inputs  = [True, False, False, True]
+    inputs = [True, False, False, True]
     multiplex = Multiplexer(inputs)
 
     binary.increment()

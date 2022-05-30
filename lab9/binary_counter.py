@@ -1,5 +1,6 @@
 DEFAULT_COUNTER_VALUE = 36182
 
+
 class BinaryCounter:
 
     def __init__(self):
