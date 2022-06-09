@@ -116,3 +116,7 @@ dmypy.json
 
 # PyCharm files
 .idea/
+
+
+# data files
+/lab11/access_log_Jul95*
